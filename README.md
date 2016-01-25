@@ -15,6 +15,13 @@ You need Git and PHP-cli to be installed:
 ```sh
 $ git clone https://git.oizopower.nl/crypto/CryptoAlert.git
 ```
+
+Make sure notify.php has execute rights
+```sh
+$ chmod +x CryptoAlert/notify.php
+```
+
+
 ### Config example
 
 Create a new folder under **profiles** with the coin name, for example **whitecoin** place the folowwing in it with the name **config.php** (/CryptoAlert/profiles/whitecoin/config.php)
