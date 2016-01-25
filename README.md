@@ -13,7 +13,7 @@ Notifies by e-mail when a large transaction is being made, just for monitoring p
 You need Git and PHP-cli to be installed:
 
 ```sh
-$ git clone https://git.oizopower.nl/crypto/CryptoAlert.git
+$ git clone https://github.com/Oizopower/CryptoAlert.git
 ```
 
 Make sure notify.php has execute rights
