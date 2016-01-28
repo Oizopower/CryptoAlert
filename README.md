@@ -10,9 +10,10 @@ Notifies by e-mail when a large transaction is being made, just for monitoring p
 
 ### Installation
 
-You need Git and PHP-cli to be installed:
+You need Git and PHP-cli / Sendmail or any other mail client to be installed:
 
 ```sh
+$ sudo apt-get install php5-cli sendmail
 $ git clone https://github.com/Oizopower/CryptoAlert.git
 ```
 
